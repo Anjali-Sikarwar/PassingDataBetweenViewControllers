@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		8697E0EF2D43F182008A31F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E0EE2D43F182008A31F7 /* AppDelegate.swift */; };
 		8697E0F12D43F182008A31F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E0F02D43F182008A31F7 /* SceneDelegate.swift */; };
-		8697E0F32D43F182008A31F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E0F22D43F182008A31F7 /* ViewController.swift */; };
+		8697E0F32D43F182008A31F7 /* SegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E0F22D43F182008A31F7 /* SegueViewController.swift */; };
 		8697E0F62D43F182008A31F7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8697E0F52D43F182008A31F7 /* Base */; };
 		8697E0F92D43F182008A31F7 /* PassingDataBetweenViewControllers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8697E0F72D43F182008A31F7 /* PassingDataBetweenViewControllers.xcdatamodeld */; };
 		8697E0FB2D43F184008A31F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8697E0FA2D43F184008A31F7 /* Assets.xcassets */; };
 		8697E0FE2D43F184008A31F7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8697E0FD2D43F184008A31F7 /* Base */; };
+		8697E10F2D4538EB008A31F7 /* SegueSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E10E2D4538EB008A31F7 /* SegueSecondViewController.swift */; };
+		8697E1122D478E47008A31F7 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E1112D478E47008A31F7 /* SourceViewController.swift */; };
+		8697E1142D478E85008A31F7 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E1132D478E85008A31F7 /* DestinationViewController.swift */; };
+		8697E1172D47BCAB008A31F7 /* DelegateSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E1162D47BCAB008A31F7 /* DelegateSourceViewController.swift */; };
+		8697E1192D47BCBD008A31F7 /* DelegateDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E1182D47BCBD008A31F7 /* DelegateDestinationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8697E0EB2D43F182008A31F7 /* PassingDataBetweenViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassingDataBetweenViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8697E0EE2D43F182008A31F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8697E0F02D43F182008A31F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8697E0F22D43F182008A31F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8697E0F22D43F182008A31F7 /* SegueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueViewController.swift; sourceTree = "<group>"; };
 		8697E0F52D43F182008A31F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8697E0F82D43F182008A31F7 /* PassingDataBetweenViewControllers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PassingDataBetweenViewControllers.xcdatamodel; sourceTree = "<group>"; };
 		8697E0FA2D43F184008A31F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8697E0FD2D43F184008A31F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8697E0FF2D43F184008A31F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8697E10E2D4538EB008A31F7 /* SegueSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueSecondViewController.swift; sourceTree = "<group>"; };
+		8697E1112D478E47008A31F7 /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
+		8697E1132D478E85008A31F7 /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		8697E1162D47BCAB008A31F7 /* DelegateSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateSourceViewController.swift; sourceTree = "<group>"; };
+		8697E1182D47BCBD008A31F7 /* DelegateDestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateDestinationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +70,59 @@
 			children = (
 				8697E0EE2D43F182008A31F7 /* AppDelegate.swift */,
 				8697E0F02D43F182008A31F7 /* SceneDelegate.swift */,
-				8697E0F22D43F182008A31F7 /* ViewController.swift */,
-				8697E0F42D43F182008A31F7 /* Main.storyboard */,
+				8697E1072D43F2CA008A31F7 /* Controllers */,
+				8697E1062D43F29C008A31F7 /* Views */,
 				8697E0FA2D43F184008A31F7 /* Assets.xcassets */,
-				8697E0FC2D43F184008A31F7 /* LaunchScreen.storyboard */,
 				8697E0FF2D43F184008A31F7 /* Info.plist */,
 				8697E0F72D43F182008A31F7 /* PassingDataBetweenViewControllers.xcdatamodeld */,
 			);
 			path = PassingDataBetweenViewControllers;
+			sourceTree = "<group>";
+		};
+		8697E1052D43F1EE008A31F7 /* Using Segues */ = {
+			isa = PBXGroup;
+			children = (
+				8697E0F22D43F182008A31F7 /* SegueViewController.swift */,
+				8697E10E2D4538EB008A31F7 /* SegueSecondViewController.swift */,
+			);
+			path = "Using Segues";
+			sourceTree = "<group>";
+		};
+		8697E1062D43F29C008A31F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8697E0F42D43F182008A31F7 /* Main.storyboard */,
+				8697E0FC2D43F184008A31F7 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8697E1072D43F2CA008A31F7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8697E1152D47BC90008A31F7 /* Using Delegate */,
+				8697E1102D478D66008A31F7 /* Using Closure Callback */,
+				8697E1052D43F1EE008A31F7 /* Using Segues */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8697E1102D478D66008A31F7 /* Using Closure Callback */ = {
+			isa = PBXGroup;
+			children = (
+				8697E1112D478E47008A31F7 /* SourceViewController.swift */,
+				8697E1132D478E85008A31F7 /* DestinationViewController.swift */,
+			);
+			path = "Using Closure Callback";
+			sourceTree = "<group>";
+		};
+		8697E1152D47BC90008A31F7 /* Using Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8697E1162D47BCAB008A31F7 /* DelegateSourceViewController.swift */,
+				8697E1182D47BCBD008A31F7 /* DelegateDestinationViewController.swift */,
+			);
+			path = "Using Delegate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8697E0F32D43F182008A31F7 /* ViewController.swift in Sources */,
+				8697E1172D47BCAB008A31F7 /* DelegateSourceViewController.swift in Sources */,
+				8697E1142D478E85008A31F7 /* DestinationViewController.swift in Sources */,
+				8697E10F2D4538EB008A31F7 /* SegueSecondViewController.swift in Sources */,
+				8697E0F32D43F182008A31F7 /* SegueViewController.swift in Sources */,
 				8697E0F92D43F182008A31F7 /* PassingDataBetweenViewControllers.xcdatamodeld in Sources */,
 				8697E0EF2D43F182008A31F7 /* AppDelegate.swift in Sources */,
 				8697E0F12D43F182008A31F7 /* SceneDelegate.swift in Sources */,
+				8697E1192D47BCBD008A31F7 /* DelegateDestinationViewController.swift in Sources */,
+				8697E1122D478E47008A31F7 /* SourceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

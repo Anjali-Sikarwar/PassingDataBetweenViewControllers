@@ -7,7 +7,15 @@
 
 import UIKit
 
-class DelegateDestinationViewController: UIViewController {
+protocol DataSendingProtocal {
+    func sendDataToAnotherViewController(data: String)
+}
+
+class DelegateDestinationViewController: UIViewController{
+    
+    @IBOutlet weak var getDataTextBox: UITextField!
+    
+    var delegate: DataSendingProtocal? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,15 +23,12 @@ class DelegateDestinationViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func sendButtonClicked(_ sender: Any) {
+        if self.delegate != nil && getDataTextBox.text != nil {
+            let dataToBeSent = self.getDataTextBox.text
+            self.delegate?.sendDataToAnotherViewController(data: dataToBeSent!)
+            dismiss(animated: true, completion: nil)
+        }
     }
-    */
-
+    
 }

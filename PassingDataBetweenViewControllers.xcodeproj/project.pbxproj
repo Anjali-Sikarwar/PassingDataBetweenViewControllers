@@ -19,6 +19,10 @@
 		8697E1142D478E85008A31F7 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E1132D478E85008A31F7 /* DestinationViewController.swift */; };
 		8697E1172D47BCAB008A31F7 /* DelegateSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E1162D47BCAB008A31F7 /* DelegateSourceViewController.swift */; };
 		8697E1192D47BCBD008A31F7 /* DelegateDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E1182D47BCBD008A31F7 /* DelegateDestinationViewController.swift */; };
+		8697E11C2D4A3D9C008A31F7 /* DirectMethodSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E11B2D4A3D9C008A31F7 /* DirectMethodSourceViewController.swift */; };
+		8697E11E2D4A3DB6008A31F7 /* DirectMethodDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E11D2D4A3DB6008A31F7 /* DirectMethodDestinationViewController.swift */; };
+		8697E1212D4A44D8008A31F7 /* NotificationCenterSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E1202D4A44D8008A31F7 /* NotificationCenterSourceViewController.swift */; };
+		8697E1232D4A44E8008A31F7 /* NotificationCenterDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8697E1222D4A44E8008A31F7 /* NotificationCenterDestinationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		8697E1132D478E85008A31F7 /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
 		8697E1162D47BCAB008A31F7 /* DelegateSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateSourceViewController.swift; sourceTree = "<group>"; };
 		8697E1182D47BCBD008A31F7 /* DelegateDestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateDestinationViewController.swift; sourceTree = "<group>"; };
+		8697E11B2D4A3D9C008A31F7 /* DirectMethodSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMethodSourceViewController.swift; sourceTree = "<group>"; };
+		8697E11D2D4A3DB6008A31F7 /* DirectMethodDestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMethodDestinationViewController.swift; sourceTree = "<group>"; };
+		8697E1202D4A44D8008A31F7 /* NotificationCenterSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterSourceViewController.swift; sourceTree = "<group>"; };
+		8697E1222D4A44E8008A31F7 /* NotificationCenterDestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterDestinationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,8 @@
 		8697E1072D43F2CA008A31F7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8697E11F2D4A44AD008A31F7 /* Using NotificationCenter */,
+				8697E11A2D4A3D69008A31F7 /* Direct Method */,
 				8697E1152D47BC90008A31F7 /* Using Delegate */,
 				8697E1102D478D66008A31F7 /* Using Closure Callback */,
 				8697E1052D43F1EE008A31F7 /* Using Segues */,
@@ -123,6 +133,24 @@
 				8697E1182D47BCBD008A31F7 /* DelegateDestinationViewController.swift */,
 			);
 			path = "Using Delegate";
+			sourceTree = "<group>";
+		};
+		8697E11A2D4A3D69008A31F7 /* Direct Method */ = {
+			isa = PBXGroup;
+			children = (
+				8697E11B2D4A3D9C008A31F7 /* DirectMethodSourceViewController.swift */,
+				8697E11D2D4A3DB6008A31F7 /* DirectMethodDestinationViewController.swift */,
+			);
+			path = "Direct Method";
+			sourceTree = "<group>";
+		};
+		8697E11F2D4A44AD008A31F7 /* Using NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				8697E1202D4A44D8008A31F7 /* NotificationCenterSourceViewController.swift */,
+				8697E1222D4A44E8008A31F7 /* NotificationCenterDestinationViewController.swift */,
+			);
+			path = "Using NotificationCenter";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,15 +224,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8697E1232D4A44E8008A31F7 /* NotificationCenterDestinationViewController.swift in Sources */,
 				8697E1172D47BCAB008A31F7 /* DelegateSourceViewController.swift in Sources */,
+				8697E11C2D4A3D9C008A31F7 /* DirectMethodSourceViewController.swift in Sources */,
 				8697E1142D478E85008A31F7 /* DestinationViewController.swift in Sources */,
 				8697E10F2D4538EB008A31F7 /* SegueSecondViewController.swift in Sources */,
 				8697E0F32D43F182008A31F7 /* SegueViewController.swift in Sources */,
 				8697E0F92D43F182008A31F7 /* PassingDataBetweenViewControllers.xcdatamodeld in Sources */,
 				8697E0EF2D43F182008A31F7 /* AppDelegate.swift in Sources */,
+				8697E11E2D4A3DB6008A31F7 /* DirectMethodDestinationViewController.swift in Sources */,
 				8697E0F12D43F182008A31F7 /* SceneDelegate.swift in Sources */,
 				8697E1192D47BCBD008A31F7 /* DelegateDestinationViewController.swift in Sources */,
 				8697E1122D478E47008A31F7 /* SourceViewController.swift in Sources */,
+				8697E1212D4A44D8008A31F7 /* NotificationCenterSourceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
